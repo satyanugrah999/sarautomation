@@ -1,0 +1,5 @@
+Nama Lengkap : Satya Anugrah Ramadhan
+Bootcamp     : SQA Automation With AI Development Juara Coding
+Batch        : Batch 30
+Repo Github  : https://github.com/satyanugrah999/sarautomation
+

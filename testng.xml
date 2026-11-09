@@ -13,5 +13,12 @@
             <class name="id.co.juaracoding.selenium.LupaPasswordTest"/>
         </classes>
     </test>
+    <test name="RestAssured API Test">
+        <classes>
+            <class name="id.co.juaracoding.restassured.LoginApiTest"/>
+            <class name="id.co.juaracoding.restassured.RegisterApiTest"/>
+            <class name="id.co.juaracoding.restassured.ForgotPasswordApiTest"/>
+        </classes>
+    </test>
 </suite>
 

@@ -9,6 +9,17 @@ public final class TestConfig {
     public static final String BASE_URL = "http://localhost:8080";
     public static final String LICENSE_KEY = "d461265dd7323fef9755bb3257275d67";
 
+    // Konfigurasi RestAssured API (Praktikum 3)
+    public static final String BASE_API_URL = BASE_URL;
+    public static final String X_API_KEY = LICENSE_KEY;
+    public static final int DEFAULT_JWT_DURATION_MINUTES = 60;
+
+    // Kode error API sesuai kontrak beku (API-CONTRACT.docx §3 & AutErrorCode)
+    public static final String ERROR_CODE_LOGIN_INVALID_CREDENTIALS = "API-ECMXS40107";
+    public static final String ERROR_CODE_REGISTER_UMBRELLA = "API-ECM010001";
+    public static final String ERROR_CODE_FIELD_ID_CARD_NUMBER = "API-ECM010009";
+    public static final String ERROR_CODE_CAPTCHA_INVALID = "API-ECM010022";
+
     // Kredensial akun seed yang valid (README §4 / §5)
     public static final String VALID_USERNAME = "admin1";
     public static final String VALID_PASSWORD = "Admin1@123";
